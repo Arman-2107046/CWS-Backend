@@ -1,36 +1,3 @@
-// import nodemailer from "nodemailer";
-
-// const transporter = nodemailer.createTransport({
-//     secure: true,
-//     host: "smtp.gmail.com",
-//     port: 465,
-//     auth: {
-//         user: "armanr.rafi@gmail.com",
-//         pass: "atgzbhjuqrbfjwmh", // your app password, no spaces
-//     },
-// });
-
-// async function sendMail(to, subject, html) {
-//     try {
-//         let info = await transporter.sendMail({
-//             from: "armanr.rafi@gmail.com",
-//             to: to,
-//             subject: subject,
-//             html: html,
-//         });
-//         console.log("Email sent:", info.messageId);
-//     } catch (error) {
-//         console.error("Error sending email:", error);
-//     }
-// }
-
-// sendMail(
-//     "armanr.rafi@gmail.com",
-//     "I am a Hrithik from Bollywood",
-//     "You Wanna Watch My Movie??"
-// );
-
-
 import dotenv from 'dotenv';
 dotenv.config();
 
