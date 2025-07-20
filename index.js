@@ -28,7 +28,7 @@ const transporter = nodemailer.createTransport({
     },
 });
 
-console.log(transporter.options);
+// console.log(transporter.options);
 
 // Check mail server connection
 transporter.verify((error, success) => {
