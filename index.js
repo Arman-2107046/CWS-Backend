@@ -52,7 +52,7 @@ app.post("/send-email", async(req, res) => {
     const mailOptions = {
         from: `"Cotton World Sourcing" <contactform@cottonworldsourcing.com>`,
         replyTo: user_email,
-        to: "mosharraf@cottonworldsourcing.com",
+        to: process.env.MAIL_RECEIVER,
         subject: subject || "Contact form submission",
         text: `
 Name: ${user_name}
