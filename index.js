@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(
     cors({
-        origin: "https://cotton-world-sourcing-frontend.netlify.app",
+        origin: "https://www.cottonworldsourcing.com",
         credentials: true,
     })
 );
