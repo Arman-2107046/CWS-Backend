@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-    origin: 'https://cotton-world-sourcing-frontend.netlify.app/', // frontend URL
+    origin: 'https://cotton-world-sourcing-frontend.netlify.app', // frontend URL
 }));
 app.use(express.json());
 
