@@ -50,7 +50,7 @@ app.post('/send-email', async(req, res) => {
     }
 
     const mailOptions = {
-        from: `"${user_name}" <${user_email}>`,
+        from: `"Cotton World Sourcing Contact" <contactform@cottonworldsourcing.com>`,
         to: "armanr.rafi@gmail.com",
         subject: subject || "New Contact Form Message",
         html: `
